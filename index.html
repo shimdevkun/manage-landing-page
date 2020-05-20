@@ -14,7 +14,11 @@
 		<title>Frontend Mentor | [xstrafez]</title>
 
 		<link rel="stylesheet" href="css/style.css" />
-	</head>
+		
+		<link
+		rel="stylesheet"
+		href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+	/>
 
 	<body>
 		<header>
@@ -32,6 +36,10 @@
 						<li><a class="navigation__link" href="#">Community</a></li>
 					</ul>
 				</nav>
+			</div>
+
+			<div class="hamburger">
+				<i class="fas fa-bars"></i><i class="fas fa-times"></i>
 			</div>
 		</header>
 
@@ -114,61 +122,70 @@
 		<section class="testimonials">
 			<h2 class="testimonials__title">What they’ve said</h2>
 
-			<article class="testimonial">
-				<img
-					class="testimonial__img"
-					src="images/avatar-anisha.png"
-					alt="Anisha Li's profile picture"
-				/>
-				<h5 class="testimonial__title">Anisha Li</h5>
-				<p class="testimonial__description">
-					“Manage has supercharged our team’s workflow. The ability to maintain
-					visibility on larger milestones at all times keeps everyone
-					motivated.”
-				</p>
-			</article>
+			<div class="slideshow">
+				<article class="testimonial">
+					<img
+						class="testimonial__img"
+						src="images/avatar-anisha.png"
+						alt="Anisha Li's profile picture"
+					/>
+					<h5 class="testimonial__title">Anisha Li</h5>
+					<p class="testimonial__description">
+						“Manage has supercharged our team’s workflow. The ability to
+						maintain visibility on larger milestones at all times keeps everyone
+						motivated.”
+					</p>
+				</article>
 
-			<article class="testimonial">
-				<img
-					class="testimonial__img"
-					src="images/avatar-ali.png"
-					alt="Ali Bravo's profile picture"
-				/>
-				<h5 class="testimonial__title">Ali Bravo</h5>
-				<p class="testimonial__description">
-					“We have been able to cancel so many other subscriptions since using
-					Manage. There is no more cross-channel confusion and everyone is much
-					more focused.”
-				</p>
-			</article>
+				<article class="testimonial">
+					<img
+						class="testimonial__img"
+						src="images/avatar-ali.png"
+						alt="Ali Bravo's profile picture"
+					/>
+					<h5 class="testimonial__title">Ali Bravo</h5>
+					<p class="testimonial__description">
+						“We have been able to cancel so many other subscriptions since using
+						Manage. There is no more cross-channel confusion and everyone is
+						much more focused.”
+					</p>
+				</article>
 
-			<article class="testimonial">
-				<img
-					class="testimonial__img"
-					src="images/avatar-richard.png"
-					alt="Richard Watts' profile picture"
-				/>
-				<h5 class="testimonial__title">Richard Watts</h5>
-				<p class="testimonial__description">
-					“Manage allows us to provide structure and process. It keeps us
-					organized and focused. I can’t stop recommending them to everyone I
-					talk to!”
-				</p>
-			</article>
+				<article class="testimonial">
+					<img
+						class="testimonial__img"
+						src="images/avatar-richard.png"
+						alt="Richard Watts' profile picture"
+					/>
+					<h5 class="testimonial__title">Richard Watts</h5>
+					<p class="testimonial__description">
+						“Manage allows us to provide structure and process. It keeps us
+						organized and focused. I can’t stop recommending them to everyone I
+						talk to!”
+					</p>
+				</article>
 
-			<article class="testimonial">
-				<img
-					class="testimonial__img"
-					src="images/avatar-shanai.png"
-					alt="Shanai Gough's profile picture"
-				/>
-				<h5 class="testimonial__title">Shanai Gough</h5>
-				<p class="testimonial__description">
-					“Their software allows us to track, manage and collaborate on our
-					projects from anywhere. It keeps the whole team in-sync without being
-					intrusive.”
-				</p>
-			</article>
+				<article class="testimonial">
+					<img
+						class="testimonial__img"
+						src="images/avatar-shanai.png"
+						alt="Shanai Gough's profile picture"
+					/>
+					<h5 class="testimonial__title">Shanai Gough</h5>
+					<p class="testimonial__description">
+						“Their software allows us to track, manage and collaborate on our
+						projects from anywhere. It keeps the whole team in-sync without
+						being intrusive.”
+					</p>
+				</article>
+			</div>
+
+			<div class="slider">
+				<a class="slider__link" href="#"></a>
+				<a class="slider__link" href="#"></a>
+				<a class="slider__link" href="#"></a>
+				<a class="slider__link" href="#"></a>
+			</div>
 
 			<a href="#">Get Started</a>
 		</section>
