@@ -96,6 +96,8 @@ img {
 
 .header__container .close {
 	display: none;
+	cursor: pointer;
+	z-index: 1;
 }
 
 .dropdown {
