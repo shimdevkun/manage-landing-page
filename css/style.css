@@ -163,6 +163,15 @@ header .get-started {
 	background: var(--bright-red);
 }
 
+.get-started__link.primary {
+	box-shadow: 0 6px 8px hsl(12, 90%, 73%);
+}
+
+.get-started__link:hover,
+.get-started__link:focus {
+	opacity: 0.75;
+}
+
 /* About Manage */
 .about-manage {
 	padding-top: 2em;
@@ -198,10 +207,10 @@ header .get-started {
 }
 
 .feature__name {
-	font-size: 1.15rem;
 	width: 100%;
-	padding: 0.5em 0 0.5em 1.75em;
-	margin: -1.25em;
+	font-size: 1.15rem;
+	padding: 0.5em 0 0.5em 1.5em;
+	margin-left: -1.25em;
 	z-index: -1;
 	background: var(--very-pale-red);
 }
@@ -232,6 +241,7 @@ header .get-started {
 }
 
 .testimonial__img {
+	max-width: 115px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -357,6 +367,7 @@ footer {
 
 .social-media__img {
 	width: 8%;
+	max-width: 35px;
 }
 
 .footer__logo {
@@ -423,7 +434,7 @@ footer {
 	}
 
 	.header__container .menu {
-		display: none;
+		display: none !important;
 	}
 
 	.navigation ul {
