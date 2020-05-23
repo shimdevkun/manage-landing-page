@@ -525,7 +525,6 @@ footer {
 
 	.testimonial {
 		display: block !important;
-		flex: 0 0 35%;
 	}
 
 	.testimonial + .testimonial {
